@@ -1,19 +1,24 @@
-Ansible Role: common
-=====================
+# Ansible Role: common
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Description
+
 Install and configures directory structure and required packages on RedHat/CentOS and Debian/Ubuntu
 
-Requirements
-------------
-Requires the EPEL repository for RedHat/CentOS
+## Requirements
+
+- Ansible >=2.3
+- EPEL Repo for RedHat/CentOS
 
 
-Role Variables
---------------
-Data and Apps diretory for all installations
-```
-data_dir: /data
-apps_dir: /apps
-```
+## Role Variables
+
+| Name           | Default Value | Description                        |
+| -------------- | ------------- | -----------------------------------|
+| `data_dir` | /data | Creates a data directory |
+| `apps_dir` | /apps | Creates a application installation directory |
+| `apt_libraries_utilities` | | Install the list of packages needed for Debian family VM's |
 
 Libraries and utilities for Debian/Ubuntu systems
 ```
@@ -42,17 +47,11 @@ yum_libraries_utilities:
 - kernel-tools
 ```
 
-Dependencies
-------------
+## Example 
 
-```
-None
-```
+### Playbook
 
-Example Playbook
-----------------
-
-Use the following playbook:
+Just install Libraries and utilities 
 
 ```
 - hosts: all
@@ -62,12 +61,15 @@ Use the following playbook:
     - role: common
 ```
 
-License
--------
+## License
+
 
 Licensed under the Apache License V2.0. See the [LICENSE file](LICENSE) for details.
 
-Author Information
-------------------
+## Author Information
 
-This role was created in 2014 by [Shashi Yebbare](https://www.skydevops.co.in/), author of [SkyDevops](https://www.skydevops.co.in/).
+You can find me on Twitter: [@skydevops](https://twitter.com/skydevops)
+
+## Contributors
+
+- Shashi Yebbare ([@skydevops](https://twitter.com/skydevops))
