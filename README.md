@@ -21,7 +21,7 @@ All variables which can be overridden are stored in [defaults/main.yml](vars/mai
 | `data_dir` | /data | Creates a data directory |
 | `apps_dir` | /apps | Creates a application installation directory |
 | `apt_libraries_utilities` | [ntp, lsof, wget, python-software-properties, zip, unzip, build-essentials] | Install the list of packages needed for Debian family VM's |
-| `yum_libraries_utilities` | [ntp, lsof, wget, dkms, kernel-devel, kernel-tools, iptables-services, policycoreutils-python, zip, unzip, build-essentials] | Install the list of packages needed for RedHat family VM's |
+| `yum_libraries_utilities` | [- ntp, - lsof, wget, dkms, kernel-devel, kernel-tools, iptables-services, policycoreutils-python, zip, unzip, build-essentials] | Install the list of packages needed for RedHat family VM's |
 
 
 ## Example 
