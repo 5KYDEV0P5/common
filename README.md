@@ -23,7 +23,7 @@ Install and configures directory structure and required packages on RedHat/CentO
 
 ## Role Variables
 
-All variables which can be overridden are stored in [defaults/main.yml](vars/main.yml) file as well as in table below.
+All variables which can be overridden are stored in [vars/main.yml](vars/main.yml) file as well as in table below.
 
 | Name           | Default Value | Description                        |
 | -------------- | ------------- | -----------------------------------|
