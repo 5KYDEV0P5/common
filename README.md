@@ -2,7 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Ansible Role](https://img.shields.io/badge/ansible%20role-skydevops.common-brightgreen.svg)](https://skydevops.co.in)
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)]()
+<!-- [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)]() -->
+
+[![GitHub tag](https://img.shields.io/github/tag/expressjs/express.svg)](https://github.com/5KYDEV0P5/common)
 
 ## Description
 
