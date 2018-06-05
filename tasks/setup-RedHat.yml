@@ -17,6 +17,7 @@
   lineinfile: dest=/etc/selinux/config regexp=^SELINUX= line=SELINUX=enforcing
 - name: Enable SELinux
   command: setenforce 1
+  ignore_errors: yes
 
   # Date and time
 - name: Remove old timezone file
