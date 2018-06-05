@@ -17,14 +17,8 @@
   selinux:
     policy: targeted
     state: enforcing
+    reboot_required: false
 
-  # Date and time
-- name: Remove old timezone file
-  file: path=/etc/localtime state=absent
-  run_once: true
-- name: Set Asia/Kolkata timezone
-  file: src=/usr/share/zoneinfo/Asia/Kolkata dest=/etc/localtime state=link
-  run_once: true
-- name: Ensure NTP is running
-  service: name=ntpd state=started enabled=yes
-  run_once: true
+# TimeZone
+- name: Set TimeZone
+  timezone: Asia/Kolkata
