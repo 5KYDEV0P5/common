@@ -1,7 +1,7 @@
 # Ansible Role: common
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub release](https://img.shields.io/github/release/5KYDEV0P5/common.svg)]( )
+[![GitHub release](https://img.shields.io/github/release/5KYDEV0P5/common.svg)](https://github.com/5KYDEV0P5/common/releases)
 [![Website](https://img.shields.io/website-up-down-green-red/http/skydevops.co.in.svg?label=skydevops)]()
 <!-- [![Ansible Role](https://img.shields.io/badge/ansible%20role-skydevops.common-brightgreen.svg)](https://skydevops.co.in) -->
 <!-- [![tag](https://img.shields.io/github/tag/5KYDEV0P5/common.svg)](https://github.com/5KYDEV0P5/common/tags) -->
