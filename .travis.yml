@@ -15,7 +15,7 @@ env:
 script:
   # Configure test script so we can run extra tests after playbook is run.
   - export container_id=$(date +%s)
-  - export cleanup=true
+  - export cleanup=false
 
   # Download test shim.
   - wget -O ${PWD}/tests/sdrtest.sh https://gist.githubusercontent.com/sky-kshatriyan/37d564e20e98d84b627b26b452b92c65/raw
