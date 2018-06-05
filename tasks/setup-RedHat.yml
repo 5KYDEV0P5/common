@@ -17,7 +17,6 @@
   selinux:
     policy: targeted
     state: enforcing
-    reboot_required: false
 
 # Date, Time and TimeZone
 - name: Install NTP
