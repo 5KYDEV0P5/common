@@ -18,4 +18,4 @@
         - ansible_distribution_version == '18.04'
 
   roles:
-    - common
+    - role_under_test
