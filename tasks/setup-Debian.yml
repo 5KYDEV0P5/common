@@ -3,12 +3,3 @@
 - name: Libraries and utilities
   apt: name={{ item }} state=present
   with_items: "{{ apt_libraries_utilities }}"
-  # update_cache: yes
-
-  # Date and time
-- name: Remove old timezone file
-  file: path=/etc/localtime state=absent
-- name: Set Asia/Kolkata timezone
-  file: src=/usr/share/zoneinfo/Asia/Kolkata dest=/etc/localtime state=link
-- name: Ensure NTP is running
-  service: name=ntp state=started enabled=yes
