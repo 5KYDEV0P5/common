@@ -17,12 +17,8 @@
   selinux:
     policy: targeted
     state: enforcing
-    register: reboot_os
-- name: Rebooting Server
-  shell: sleep 2 && /sbin/shutdown -r now "System reboot"
-  async: 1
-  poll: 0
-  when: reboot_os.stdout.find("reboot") != -1
+  notify: reboot_os
+
 
 # Date, Time and TimeZone
 - name: Install NTP
