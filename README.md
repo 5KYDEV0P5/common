@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub release](https://img.shields.io/github/release/5KYDEV0P5/common.svg)](https://github.com/5KYDEV0P5/common/releases)
 [![Website](https://img.shields.io/website-up-down-green-red/http/skydevops.co.in.svg?label=skydevops)]()
-[![Build Status](https://travis-ci.org/5KYDEV0P5/common.svg?branch=master?branch=master)](https://travis-ci.org/5KYDEV0P5/common)
+[![Build Status](https://travis-ci.org/5KYDEV0P5/common.svg?branch=master)](https://travis-ci.org/5KYDEV0P5/common)
 <!-- [![Ansible Role](https://img.shields.io/badge/ansible%20role-skydevops.common-brightgreen.svg)](https://skydevops.co.in) -->
 <!-- [![tag](https://img.shields.io/github/tag/5KYDEV0P5/common.svg)](https://github.com/5KYDEV0P5/common/tags) -->
 <!-- [![Github All Releases](https://img.shields.io/github/downloads/5KYDEV0P5/common/total.svg)]( ) -->
