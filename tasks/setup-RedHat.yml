@@ -14,15 +14,17 @@
 
 # SELinux
 - name: SELinux should be enforcing
-  lineinfile: dest=/etc/selinux/config regexp=^SELINUX= line=SELINUX=enforcing
-- name: Enable SELinux
-  command: setenforce 1
-  ignore_errors: yes
+  selinux:
+    policy: targeted
+    state: enforcing
 
   # Date and time
 - name: Remove old timezone file
   file: path=/etc/localtime state=absent
+  run_once: true
 - name: Set Asia/Kolkata timezone
   file: src=/usr/share/zoneinfo/Asia/Kolkata dest=/etc/localtime state=link
+  run_once: true
 - name: Ensure NTP is running
   service: name=ntpd state=started enabled=yes
+  run_once: true
